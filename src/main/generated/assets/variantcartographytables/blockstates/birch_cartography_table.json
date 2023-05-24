@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "variantcartographytables:block/birch_cartography_table"
+    }
+  }
+}

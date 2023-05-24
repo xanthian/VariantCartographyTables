@@ -1,0 +1,16 @@
+{
+  "_comment": "Rename Vanilla",
+  "block.minecraft.cartography_table": "Dark Oak Cartography Table",
+
+  "block.variantcartographytables.birch_cartography_table": "Birch Cartography Table",
+  "block.variantcartographytables.cherry_cartography_table": "Cherry Cartography Table",
+  "block.variantcartographytables.bamboo_cartography_table": "Bamboo Cartography Table",
+  "block.variantcartographytables.oak_cartography_table": "Oak Cartography Table",
+  "block.variantcartographytables.jungle_cartography_table": "Jungle Cartography Table",
+  "block.variantcartographytables.acacia_cartography_table": "Acacia Cartography Table",
+  "block.variantcartographytables.spruce_cartography_table": "Spruce Cartography Table",
+  "block.variantcartographytables.mangrove_cartography_table": "Mangrove Cartography Table",
+  "block.variantcartographytables.crimson_cartography_table": "Crimson Cartography Table",
+  "block.variantcartographytables.warped_cartography_table": "Warped Cartography Table"
+
+}

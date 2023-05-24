@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "variantcartographytables:block/oak_cartography_table"
+    }
+  }
+}

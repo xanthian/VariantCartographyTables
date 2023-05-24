@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/mangrove_planks",
+    "east": "variantcartographytables:block/mangrove_cartography_table_side3",
+    "north": "variantcartographytables:block/mangrove_cartography_table_side3",
+    "particle": "variantcartographytables:block/mangrove_cartography_table_side3",
+    "south": "variantcartographytables:block/mangrove_cartography_table_side1",
+    "up": "variantcartographytables:block/mangrove_cartography_table_top",
+    "west": "variantcartographytables:block/mangrove_cartography_table_side2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "variantcartographytables:acacia_cartography_table", "required": false},
+    {"id": "variantcartographytables:bamboo_cartography_table", "required": false},
+    {"id": "variantcartographytables:birch_cartography_table", "required": false},
+    {"id":"variantcartographytables:cherry_cartography_table", "required": false},
+    {"id": "variantcartographytables:jungle_cartography_table", "required": false},
+    {"id": "variantcartographytables:oak_cartography_table", "required": false},
+    {"id": "variantcartographytables:spruce_cartography_table", "required": false},
+    {"id": "variantcartographytables:mangrove_cartography_table", "required": false},
+    {"id": "variantcartographytables:warped_cartography_table", "required": false},
+    {"id": "variantcartographytables:crimson_cartography_table", "required": false}
+  ]
+}

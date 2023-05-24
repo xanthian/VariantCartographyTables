@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "variantcartographytables",
+  "version": "${version}",
+  "name": "Variant Cartography Tables",
+  "description": "Cartography Tables for all wood types",
+  "authors": ["Xanthian"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.xanthian.variantcartographytables.Initialise"],
+    "fabric-datagen": ["net.xanthian.variantcartographytables.DataGenerator"]
+  },
+  "mixins": ["variantcartographytables.mixins.json"],
+  "accessWidener": "variantcartographytables.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric": "*",
+    "minecraft": "1.20.x",
+    "java": ">=17"
+  }
+}

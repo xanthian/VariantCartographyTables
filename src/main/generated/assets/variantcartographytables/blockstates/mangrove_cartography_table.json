@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "variantcartographytables:block/mangrove_cartography_table"
+    }
+  }
+}

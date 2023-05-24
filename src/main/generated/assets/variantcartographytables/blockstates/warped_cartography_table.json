@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "variantcartographytables:block/warped_cartography_table"
+    }
+  }
+}
