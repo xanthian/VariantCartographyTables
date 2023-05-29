@@ -40,6 +40,15 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(Items.PAPER), FabricRecipeProvider.conditionsFromItem(Items.PAPER))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(CartographyTables.BAMBOO_CARTOGRAPHY_TABLE)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, CartographyTables.BIRCH_CARTOGRAPHY_TABLE)
+                .input('@', Items.PAPER)
+                .input('#', Blocks.BIRCH_PLANKS)
+                .pattern("@@")
+                .pattern("##")
+                .pattern("##")
+                .criterion(FabricRecipeProvider.hasItem(Items.PAPER), FabricRecipeProvider.conditionsFromItem(Items.PAPER))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(CartographyTables.BIRCH_CARTOGRAPHY_TABLE)));
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, CartographyTables.CHERRY_CARTOGRAPHY_TABLE)
                 .input('@', Items.PAPER)
                 .input('#', Blocks.CHERRY_PLANKS)
@@ -49,14 +58,14 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(Items.PAPER), FabricRecipeProvider.conditionsFromItem(Items.PAPER))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(CartographyTables.CHERRY_CARTOGRAPHY_TABLE)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, CartographyTables.SPRUCE_CARTOGRAPHY_TABLE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, CartographyTables.CRIMSON_CARTOGRAPHY_TABLE)
                 .input('@', Items.PAPER)
-                .input('#', Blocks.SPRUCE_PLANKS)
+                .input('#', Blocks.CRIMSON_PLANKS)
                 .pattern("@@")
                 .pattern("##")
                 .pattern("##")
                 .criterion(FabricRecipeProvider.hasItem(Items.PAPER), FabricRecipeProvider.conditionsFromItem(Items.PAPER))
-                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(CartographyTables.SPRUCE_CARTOGRAPHY_TABLE)));
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(CartographyTables.CRIMSON_CARTOGRAPHY_TABLE)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, CartographyTables.JUNGLE_CARTOGRAPHY_TABLE)
                 .input('@', Items.PAPER)
@@ -85,23 +94,14 @@ public class RecipeGenerator extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(Items.PAPER), FabricRecipeProvider.conditionsFromItem(Items.PAPER))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(CartographyTables.OAK_CARTOGRAPHY_TABLE)));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, CartographyTables.BIRCH_CARTOGRAPHY_TABLE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, CartographyTables.SPRUCE_CARTOGRAPHY_TABLE)
                 .input('@', Items.PAPER)
-                .input('#', Blocks.BIRCH_PLANKS)
+                .input('#', Blocks.SPRUCE_PLANKS)
                 .pattern("@@")
                 .pattern("##")
                 .pattern("##")
                 .criterion(FabricRecipeProvider.hasItem(Items.PAPER), FabricRecipeProvider.conditionsFromItem(Items.PAPER))
-                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(CartographyTables.BIRCH_CARTOGRAPHY_TABLE)));
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, CartographyTables.CRIMSON_CARTOGRAPHY_TABLE)
-                .input('@', Items.PAPER)
-                .input('#', Blocks.CRIMSON_PLANKS)
-                .pattern("@@")
-                .pattern("##")
-                .pattern("##")
-                .criterion(FabricRecipeProvider.hasItem(Items.PAPER), FabricRecipeProvider.conditionsFromItem(Items.PAPER))
-                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(CartographyTables.CRIMSON_CARTOGRAPHY_TABLE)));
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(CartographyTables.SPRUCE_CARTOGRAPHY_TABLE)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, CartographyTables.WARPED_CARTOGRAPHY_TABLE)
                 .input('@', Items.PAPER)

@@ -5,7 +5,6 @@ import net.minecraft.block.CartographyTableBlock;
 
 public class VariantCartographyTableBlock extends CartographyTableBlock {
 
-
     public VariantCartographyTableBlock() {
         super(Settings.copy(Blocks.CARTOGRAPHY_TABLE));
     }
